@@ -1,0 +1,90 @@
+body {
+    background-color: #614BC3;
+    
+}
+    
+
+* {
+    box-sizing: border-box;
+    text-align: left;
+    
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 32.33%;
+    padding: 10px;
+    height: 750px; 
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+
+  div {
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    
+  }
+
+  h1 {
+    font-family: 'Denk One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color:bisque
+  }
+
+  h2 { 
+    font-family: 'Denk One', sans-serif;
+  }
+
+  img {
+    margin-top: 100px;
+    height: 350px;
+    width: 350px;
+    
+   
+    
+    
+  }
+
+  td {
+    border-bottom: 1px dotted #A4310F;
+    font-weight:bolder;
+    opacity: 0.6;
+    
+  }
+  
+
+table {
+  box-shadow: 4px 4px 4px 3px black;
+}
+
+th {
+  font-size: larger;
+}
+
+.center {
+  
+  width: 75%;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: center;
+  color:bisque
+}
